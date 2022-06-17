@@ -1,0 +1,1 @@
+if [ "`git branch --list -r origin/java-project-2`" ]; then echo "yes the branch in remote " ; else echo "opps the branch in the remote" ; fi
